@@ -1,597 +1,699 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="./img/olx.webp">
+    <link rel="icon" href="./img/Facebook-logo-blue-circle-large-transparent-png.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OLX.com</title>
+    <title>Facebook</title>
 </head>
 <body>
-    <header>
-        <div class="nav_top" style="margin: 10px 10px 10px 110px;">
-            <div>
-            <img src="./img/logo olx.png" alt="" style="height: 20px;">
-            </div>
-            <div class="bar_icon" style=" ">
-                <span style=" padding:10px 5px; "><i class="fa-solid fa-car"></i></span>
-            </div>
-            <Div class="bar_text" style="margin-left: 10PX;">
-                <span>MOTORS</span>
-            </Div>
-
-            
-            <div class="bar_icon" style=" ">
-                <span style=" padding:15px 5px;"><i class="fa-solid fa-city"></i></span>
-            </div>
-            <Div class="bar_text" style="margin-left: 10PX;">
-                <span>MOTORS</span>
-            </Div>
-        </div>
-
-
-        <div class="row" style=" margin: 0px 20px 0px  120px; padding: 10px 0px; display: flex; flex-direction: row; cursor: pointer;">
-            
-            <div  style=" width: 100px;">
-                <img src="./img/logo olx.png" alt="" style="height: 40px;">
-            </div>
-            <div class="location" style="width: 300px ;   " >
+    <!-- <navebar> -->
+    <div class="container-fluid	shadow-sm   bg-body rounded " style="padding: 0px 10px  0px 10px;z-index: 10; display: flex; flex-direction: row; position: fixed; height: 50px; padding-top: 5px; cursor: pointer;">
+        <div id="start" class="col-sm-3  col-md-3 col-lg-3 " style="display: flex; flex-direction: row; ">
+                <div class="icon" style="margin-left: 10px;">
+                    <i class="fa-brands fa-facebook" style="color: #5581ce; font-size: 40px;"></i>
+                </div>
+                    <div class="search ms-2" >
+                        <div class="input-group mb-3" style="border-radius: 100px; background-color: #dad9d9;">
+                            
+                        </i><span class="input-group-text" id="basic-addon2" style=" border-radius:50px 0px 0px 50px;background-color: #dad9d9;"><i
+                                class="fa-solid fa-magnifying-glass"></i></span><input type="text" class="form-control " placeholder=" Search Facebook" aria-label="Recipient's username"
+                                aria-describedby="basic-addon2" style="border-radius: 0px 100px 100px 0px; background-color: #dad9d9;" >
+                            </div>
                
-            
-
-            
-            <label for="exampleDataList" class="form-label"></label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Search City, area or locality" style="border: black 2px solid;>
-            <datalist id="datalistOptions">
-                <option value="pakistan">
-                <option value="New York">
-                <option value="Seattle">
-                <option value="Los Angeles">
-                <option value="Chicago">
-                    <div style="padding: 7px; ">
-                        <img src="./img/drop.png" alt="" style="width: 30px;">
-                    </div>
-            </datalist>
-            
-            </div>
-
-
-           
              
-                    <div class="input-group" style="width: 500px; ;">
-                       
-                        <input type="text" class="form-control" placeholder="Find Cars, Mobile Phones and more..." aria-label="Username"
-                            aria-describedby="basic-addon1" style="border: black 2px solid;">
-                            <span class="input-group-text"  id="basic-addon1" style="background-color: black; color: white; border: black 2px solid;">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </span>
-                    </div>
-               <div class="log" style="; width: 55px; padding: 10px 0px ;">
-                <div style="border-bottom: 2px solid;">
-                   <button style="border: none; background-color: white; margin-left: 0px;"> 
-                     <span style="font-weight: bold;">Login</span>
-                    </button>
-                    </div>
-               </div>
-
-               <div class="sell" style="width: 100px;">
-                   <button style="border: none; background-color: white;">
-                       <div>
-                        
-                           <img src="./img/border.png" alt="" style="width:100px; height: 40px;">
-                       </div>
-                       <div style="margin-top: -30px;">
-                                                    <span><i class="fa-solid fa-plus"></i> </span><span style="font-weight: bold;"> SELL</span>
-
-                       </div>
-                   </button>
-               </div>
-            
+                 
+                   
+                </div>
         </div>
-       
-    </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+        <!-- <dive_center_icon> -->
+        <div id="center" class="  col-lg-6" style="">
+            <div class="icon_center " style="display: flex; justify-content: space-around;padding-left: 50px; padding-right: 50px;" >
+                <div class="sentr_icon" ><i class="fa-solid fa-house" style=" font-size: 25px;"></i></div>
+                <div class="sentr_icon" ><img src="./img/free-facebook-watch-4560241-3789515.png" alt="" style="width: 28px;"></div>
+                <div class="sentr_icon" ><i class="fa-solid fa-store" style="font-size: 25px;"></i></div>
+                <div class="sentr_icon"><i class="fa-solid fa-users-between-lines" style="font-size: 25px;"></i></div>
+                <div class="sentr_icon"><i class="fa-solid fa-gamepad" style="font-size: 25px;"></i></div>
+             
+
+            </div>
+        </div>
+        <div id="end" class="col col-sm-6 col-md-3 col-lg-3 " style="display: flex; flex-direction: row;    ">
+            <div class="end_icon" style="margin-left: 10px; display: flex; flex-direction: row;">
+                <span class="input-group-text" id="basic-addon2" style=" margin-left: 20px; border-radius: 80px; padding: 10px; width: 40px; height: 40px;"><img src="./img/menu-candy-box-icon-256x256-olfujde2.png" alt="" style="width: 20px; height: 20px;"></i></span>
+                <span class="input-group-text" id="basic-addon2" style="margin-left: 20px; border-radius: 50px; padding: 10px; width: 40px; height: 40px; "><i class="fa-brands fa-facebook-messenger"></i></span>
+                <span class="input-group-text" id="basic-addon2" style="margin-left: 20px; border-radius: 50px; padding: 10px; width: 40px; height: 40px; "><i class="fa-brands fa-facebook-messenger"></i></span>
+                <span class="input-group-text" id="basic-addon2"
+                    style="margin-left: 20px; border-radius: 50px; padding: 10px; width: 40px; height: 40px; "><i class="fa-solid fa-bell"></i></span>
+   
+        <img src="./img/images.jpg" alt="" style="width: 40px; height: 40px; margin-left: 10px; border-radius: 50px;left: 0;">
+                                          
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <main> -->
+<div class="container-fluid tow"  style=" border: 1px solid; background-color:  lightgrey; display: flex; flex-direction: row; ">
+ 
+    <!-- <<left_menu>> -->
+        <div class="bd-sidebar col-lg-3 " style="grid-area: sidebar; cursor: pointer;">
+            <div class="collapse bd-links " id="bd-docs-nav" aria-label="Docs navigation">
+<div class="col-12" style="">
+
+    <div class="main_left  " style="color: black; ;display: flex; flex-direction: row; padding: 0px 8px;" >
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/images.jpg" alt="" style="width: 30px; height: 30px; border-radius: 50px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Abubakar ABS</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black;display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/1.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Friends</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/2.png" alt="" style="width: 40px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Groups</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black;display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/3.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Pages </span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/4.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Memories</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black;display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/5.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Saved</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black;display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/6.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Ad Center</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/7.png" alt="" style="width: 40px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 0px">
+            <span style="font-size: 15px; font-weight: bold;">Ads Manger</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;padding-left: 15px;">
+            <div><img src="./img/8.png" alt="" style="width: 20px; height: 30px; padding-left: 5px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Blood Donations</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/9.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Events</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/10.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Marketplace</span>
+        </div>
+    </div>
+    <div class="main_left  "
+        style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/11.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Massenger</span>
+        </div>
+    </div>
+<div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+    <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+        <div><img src="./img/7.png" alt="" style="width: 40px; height: 30px;"></div>
+    </div>
+    <div style="padding: 10px; 0px">
+        <span style="font-size: 15px; font-weight: bold;">Ads Manger</span>
+    </div>
+</div>
+<div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+    <div class="" style="display: flex; flex-direction: row; padding: 7px;padding-left: 15px;">
+        <div><img src="./img/8.png" alt="" style="width: 20px; height: 30px; padding-left: 5px;"></div>
+    </div>
+    <div style="padding: 10px; 5px">
+        <span style="font-size: 15px; font-weight: bold;">Blood Donations</span>
+    </div>
+</div>
+<div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+    <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+        <div><img src="./img/9.png" alt="" style="width: 30px; height: 30px;"></div>
+    </div>
+    <div style="padding: 10px; 5px">
+        <span style="font-size: 15px; font-weight: bold;">Events</span>
+    </div>
+</div>
+<div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+    <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+        <div><img src="./img/10.png" alt="" style="width: 30px; height: 30px;"></div>
+    </div>
+    <div style="padding: 10px; 5px">
+        <span style="font-size: 15px; font-weight: bold;">Marketplace</span>
+    </div>
+</div>
+<div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+    <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+        <div><img src="./img/11.png" alt="" style="width: 30px; height: 30px;"></div>
+    </div>
+    <div style="padding: 10px; 5px">
+        <span style="font-size: 15px; font-weight: bold;">Massenger</span>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- <<main_center_post>> -->
+
+    <div class="main_center col-sm-12 col-lg-6" style=" background-color:  lightgrey; cursor: pointer;">
+
+<!-- <<reels_post>> -->
+<div class="reels" style="display: flex; flex-direction: row; padding: 10px; justify-content: space-around;margin-top: 60px; ">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+        style="width: 100px; height: 200px; background-color: turquoise; border-radius: 10px; justify-content: center; align-items: center;">
+        <div class="carousel-inner">
+            <div>
+                <img src="./img/images.jpg" alt=""
+                    style="width: 35px; height: 35px; z-index: 2 ;position: absolute; border-radius: 50px; border: 2px solid blue; margin: 10px;">
+            </div>
+            <div class="carousel-item active" style="">
+
+                <img src="./img/slider.jpg" class="d-block w-100 " alt="..."
+                    style="height: 200px; border-radius: 10px; ">
+            </div>
+            <div style="position: absolute; margin-top: 170px; color: white; margin-left: 10px;">
+                <span>Abu bakar </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+        style="width: 100px; height: 200px; background-color: turquoise; border-radius: 10px; justify-content: center; align-items: center;">
+        <div class="carousel-inner">
+            <div>
+                <img src="./img/images.jpg" alt=""
+                    style="width: 35px; height: 35px; z-index: 2 ;position: absolute; border-radius: 50px; border: 2px solid blue; margin: 10px;">
+            </div>
+            <div class="carousel-item active" style="">
+
+                <img src="./img/slider.jpg" class="d-block w-100 " alt="..."
+                    style="height: 200px; border-radius: 10px; ">
+            </div>
+            <div style="position: absolute; margin-top: 170px; color: white; margin-left: 10px;">
+                <span>Abu bakar </span>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+        style="width: 100px; height: 200px; background-color: turquoise; border-radius: 10px; justify-content: center; align-items: center;">
+        <div class="carousel-inner">
+            <div>
+                <img src="./img/images.jpg" alt=""
+                    style="width: 35px; height: 35px; z-index: 2 ;position: absolute; border-radius: 50px; border: 2px solid blue; margin: 10px;">
+            </div>
+            <div class="carousel-item active" style="">
+
+                <img src="./img/slider.jpg" class="d-block w-100 " alt="..."
+                    style="height: 200px; border-radius: 10px; ">
+            </div>
+            <div style="position: absolute; margin-top: 170px; color: white; margin-left: 10px;">
+                <span>Abu bakar </span>
+            </div>
+
+        </div>
+
+    </div>
 
 
-            <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false" style="font-weight: bold;">
-               ALL categories
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            
-        </li>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+        style="width: 100px; height: 200px; background-color: turquoise; border-radius: 10px; justify-content: center; align-items: center;">
+        <div class="carousel-inner">
+            <div>
+                <img src="./img/images.jpg" alt=""
+                    style="width: 35px; height: 35px; z-index: 2 ;position: absolute; border-radius: 50px; border: 2px solid blue; margin: 10px;">
+            </div>
+            <div class="carousel-item active" style="">
+
+                <img src="./img/slider.jpg" class="d-block w-100 " alt="..."
+                    style="height: 200px; border-radius: 10px; ">
+            </div>
+            <div style="position: absolute; margin-top: 170px; color: white; margin-left: 10px;">
+                <span>Abu bakar </span>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+        style="width: 100px; height: 200px; background-color: turquoise; border-radius: 10px; justify-content: center; align-items: center;">
+        <div class="carousel-inner">
+            <div>
+                <img src="./img/images.jpg" alt=""
+                    style="width: 35px; height: 35px; z-index: 2 ;position: absolute; border-radius: 50px; border: 2px solid blue; margin: 10px;">
+            </div>
+            <div class="carousel-item active" style="">
+
+                <img src="./img/slider.jpg" class="d-block w-100 " alt="..."
+                    style="height: 200px; border-radius: 10px; ">
+            </div>
+            <div style="position: absolute; margin-top: 170px; color: white; margin-left: 10px;">
+                <span>Abu bakar </span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- <<top1>> -->
+
+
+        <div class="top1" style="margin-top:;">
+             <div class="row1" >
                
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Mobile Phones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Cars</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Motorcycle</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Houses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">TV-Vedio-Adio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Tablets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">LAnd & Plots</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-    <div style="width: 100%; height: 200px; padding: 20px;">
-        <img src="./img/295176473-800x600.webp" alt="" style="width: 100%; height: 200px;">
-    </div>
-
-    <div style="padding: 20px; margin-left: 110px; margin-right: 110px; cursor: pointer;">
-        <div>
-        <span style="font-size: 2.4rem; font-weight: 700;">All Categories</span>
-        </div>
-
-        <div class="row" style="display: flex; justify-content: space-between;margin-bottom: 2rem;">
-            <div class="item" style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row" style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-
-             <div class="item" style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row" style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;  width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;   width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;   width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-
-           
-        </div>
-
-        <div class="row" style="display: flex; justify-content: space-between;margin-bottom: 2rem;">
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-        
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-        
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-        
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;  width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-        
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-        
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;   width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-        
-            <div class="item"
-                style="text-align: center; font-size: 1.6rem; font-weight: bold;   width: 88px; height: 120px; padding: 0px;">
-                <div class="img_row"
-                    style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
-                    <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
-                </div>
-                <div style="font-size: 20px;">
-                    <span style="font-size: 16px;">Mobiles</span>
-                </div>
-            </div>
-        
-        
-        </div>
-
-    </div>
-
-
-    <div class="mobiles" style="margin-bottom: 30px; cursor: pointer;">
-        <div>
-            <span style="color: black; font-weight: 700; white-space: nowrap; font-size: 2.4rem;"  >Mobile Phones</span>
-        </div>
-
-        <div style="display: flex; justify-content: space-between;">
-                <div class="card" style="width: 18rem; border-radius: 10px;">
-                    <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                    <div class="card-body">
-                        <p class="card-text">
-                           <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card title and make up the bulk of the card's
-                            content.</p>
+                <div class="mind" >
+                        <div style="padding: 10px  ; float: left; width: 20%; width: 40px; ">
+                            <img src="./img/images.jpg" alt="" style=" width: 40px; height: 40px; border-radius: 50px;">
+                        </div>
+                    <div style=" margin-top: 10px; margin-left:20px; width:90% ;">
+                      </i><input type="text" class="form-control " placeholder=" What's on your mind,?" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2" style="border-radius:  100px ; background-color: #dad9d9;">
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem; border-radius: 10px;">
-                    <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card title and
-                            make up the bulk of the card's
-                            content.</p>
+             </div>
+
+            
+
+             <div class="row2" style="; width: 100%; "  >
+
+                 <div class="creat_post col-sm-3" style=" display: flex;flex-direction: row; padding: 8px;position: relative; ">
+                    <div style="margin-left: 10px;">
+                        <img src="./img/live..png" alt="">
+                    </div>
+                    <div style="margin-left: 10px;">
+                        <span>LIve vedio</span>
+                    </div>
+                 </div>
+
+                <div class="creat_post col-sm-3" style=" display: flex;flex-direction: row; padding: 8px; position: relative; ">
+                    <div style="margin-left: 10px;">
+                        <img src="./img/photo.png" alt="">
+                    </div>
+                    <div    style="margin-left: 10px;">
+                        <span>Photo/vedio</span>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem; border-radius: 10px;">
-                    <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card title and
-                            make up the bulk of the card's
-                            content.</p>
+
+                <div class="creat_post col-sm-3" style="; display: flex;flex-direction: row; padding: 8px; margin-right:20px; position: relative; ">
+                    <div style="margin-left: 10px; ">
+                        <img src="./img/feling.png" alt="">
+                    </div>
+                    <div style="margin-left: 10px;">
+                        <span>Feeling/activity</span>
                     </div>
                 </div>
+            </div>
+                 
+             </div>
 
-                <div class="card" style="width: 18rem; border-radius: 10px;">
-                    <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card title and
-                            make up the bulk of the card's
-                            content.</p>
+<!-- <<top2>> -->
+    <div class="top2">
+            <div style="display: flex; flex-direction: row; position: relative; ">
+                <div style="cursor: pointer;">
+                    <img class="img1" src="./img/images.jpg" alt="" style="position: relative;" >
+                </div>
+                <div style="margin-left: 10px; padding-right: 300px; cursor: pointer;">
+                    <span style="font-size: 15px;font-weight: 500;">M Abu Bakar siddique</span> <br>
+                    <span>1h . </span><span><i class="fa-solid fa-earth-asia"></i></span>
+                </div>
+                <div style="padding: 10px; cursor: pointer;">
+                    <span style="font-size: 20px;font-weight: 500;"><i class="fa-solid fa-ellipsis"></i></span>
+                </div>
+                <div style="padding: 10px; cursor: pointer;">
+                    <span style="font-size: 20px;font-weight: 500;"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+            </div>
+
+            <div style="text-align: right; margin-bottom: 10px;">
+                <span style="text-align: right;">تمام عاشقانِ رسول کو ربیع الاول شریف کا چاند مبارک ہو</span>
+            </div>
+            <div style="display: flex; justify-content: center; border-bottom:1px solid ;">
+                <img src="./img/posr jamia.jpg" alt="" style="position: relative; width: 100%;">
+            </div>
+            <div style="margin: 0px 16px; display: flex; flex-direction: row; padding-top: 10px; padding-bottom: 10px; border-bottom: solid 1px ;">
+                <div>
+                    <img src="./img/like.png" alt="" style="border-radius: 10px ; width: 20px; height: 20px;">
+                </div>
+                <div>
+                    <img src="./img/download.svg" alt="" style="border-radius: 10px ; width: 20px; height: 20px;">
+                </div>
+                <div style="margin-left:10px ; margin-right: 180px;">
+                <span>M Abu Bakar Attari and other500</span>
+                </div>
+                <div>
+                    <span>10 sheres</span>
+                </div>
+            </div>
+
+
+            <div class="row2">
+                <div class="creat_post" style="display: flex;flex-direction: row; padding: 8px; ">
+                    <div style="margin-left: 10px;">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    </div>
+                    <div style="margin-left: 10px;">
+                        <span>Like</span>
                     </div>
                 </div>
+            
+                <div class="creat_post" style=" display: flex;flex-direction: row; padding: 8px; ">
+                    <div style="margin-left: 10px;">
+                    <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div style="margin-left: 10px;">
+                        <span>Comment</span>
+                    </div>
+                </div>
+            
+            
+                <div class="creat_post" style="; display: flex;flex-direction: row; padding: 8px; ">
+                    <div style="margin-left: 10px;">
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div style="margin-left: 10px;">
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+            
 
-        </div>
 
-      
     </div>
-
-    <div class="mobiles" style="margin-bottom: 30px;">
-        <div>
-            <span style="color: black; font-weight: 700; white-space: nowrap; font-size: 2.4rem;">Mobile Phones</span>
+    <div class="top2">
+        <div style="display: flex; flex-direction: row;">
+            <div style="cursor: pointer;">
+                <img class="img1" src="./img/images.jpg" alt="">
+            </div>
+            <div style="margin-left: 10px; padding-right: 300px; cursor: pointer;">
+                <span style="font-size: 15px;font-weight: 500;">M Abu Bakar siddique</span> <br>
+                <span>1h . </span><span><i class="fa-solid fa-earth-asia"></i></span>
+            </div>
+            <div style="padding: 10px; cursor: pointer;">
+                <span style="font-size: 20px;font-weight: 500;"><i class="fa-solid fa-ellipsis"></i></span>
+            </div>
+            <div style="padding: 10px; cursor: pointer;">
+                <span style="font-size: 20px;font-weight: 500;"><i class="fa-solid fa-xmark"></i></span>
+            </div>
         </div>
     
-        <div style="display: flex; justify-content: space-between;">
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and make up the bulk of the card's
-                        content.</p>
-                </div>
+        <div style="text-align: right; margin-bottom: 10px;">
+            <span style="text-align: right;">میں مدنی ہوں الحمدللہ ۔۔۔۔(اسد مدنی عطاری)</span>
+        </div>
+        <div style="display: flex; justify-content: center; border-bottom:1px solid ;">
+            <img src="./img/post jamia.jpg" alt="" style="position: relative; width: 100%;">
+        </div>
+        <div
+            style="margin: 0px 16px; display: flex; flex-direction: row; padding-top: 10px; padding-bottom: 10px; border-bottom: solid 1px ;">
+            <div>
+                <img src="./img/like.png" alt="" style="border-radius: 10px ; width: 20px; height: 20px;">
             </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
+            <div>
+                <img src="./img/download.svg" alt="" style="border-radius: 10px ; width: 20px; height: 20px;">
             </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
+            <div style="margin-left:10px ; margin-right: 180px;">
+                <span>M Abu Bakar Attari and other500</span>
             </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
+            <div>
+                <span>10 sheres</span>
             </div>
-    
         </div>
     
     
-    </div>
-
-    <div class="mobiles" style="margin-bottom: 30px;">
-        <div>
-            <span style="color: black; font-weight: 700; white-space: nowrap; font-size: 2.4rem;">Mobile Phones</span>
+        <div class="row2">
+            <div class="creat_post" style="display: flex;flex-direction: row; padding: 8px; ">
+                <div style="margin-left: 10px;">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                </div>
+                <div style="margin-left: 10px;">
+                    <span>Like</span>
+                </div>
+            </div>
+    
+            <div class="creat_post" style=" display: flex;flex-direction: row; padding: 8px; ">
+                <div style="margin-left: 10px;">
+                    <i class="fa-regular fa-message"></i>
+                </div>
+                <div style="margin-left: 10px;">
+                    <span>Comment</span>
+                </div>
+            </div>
+    
+    
+            <div class="creat_post" style="; display: flex;flex-direction: row; padding: 8px; ">
+                <div style="margin-left: 10px;">
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <div style="margin-left: 10px;">
+                    <span>Share</span>
+                </div>
+            </div>
         </div>
     
-        <div style="display: flex; justify-content: space-between;">
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and make up the bulk of the card's
-                        content.</p>
-                </div>
-            </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
-            </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
-            </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
-            </div>
-    
-        </div>
     
     
     </div>
 
 
-    <div style="display: flex; flex-direction: row; background-color: rgba(0,47,52,.03); padding:0px 120px 0px 200px;">
-        <div>
-            <img src="./img/footr.webp" alt="">
-        </div>
-        <div>
-            <div style="width: 2px;height: 150px;margin-top: 30px; background-color: rgba(0,47,52,.2);"></div>
-        </div>
-        <div  style="margin-left: 32px;">
-            <div style="margin: 60px 0px 12px 12px;">
-                <span style="font-weight: 700; ">GET YOUR APP TODAY</span>
-            </div>
-            <div class="app_box" style=" ">
-                <div class="app" style="" >
-                    <img class="app_img" src="./img/app store.svg" alt="">
-                </div>
-                <div class="app">
-                    <img class="app_img" src="./img/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" alt="">
-                </div>
-                <div class="app">
-                    <img class="app_img" src="./img/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" alt="">
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-<div class="footer">
-    <div style="background-color: #ebeeef; padding: 16px 0 16px 6.4rem; border-top: 1px solid rgba(0,47,52,.2); display: flex; flex-direction: row; ">
-    <div class="tex_footr">
-        <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
-        <br>
-        <br>
-        
-        <span class="psan_end">Cars</span><br>
-        <span class="psan_end">Flats for rent</span><br>
-        <span class="psan_end">obile Phones</span><br>
-        <span class="psan_end">Jobs</span>
-    </div>
-<div class="tex_footr">
-    <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
-    <br>
-    <br>
-
-    <span class="psan_end">Cars</span><br>
-    <span class="psan_end">Flats for rent</span><br>
-    <span class="psan_end">obile Phones</span><br>
-    <span class="psan_end">Jobs</span>
-</div>
-    <div class="tex_footr">
-        <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
-        <br>
-        <br>
-    
-        <span class="psan_end">Cars</span><br>
-        <span class="psan_end">Flats for rent</span><br>
-        <span class="psan_end">obile Phones</span><br>
-        <span class="psan_end">Jobs</span>
-    </div>
-    <div class="tex_footr">
-        <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
-        <br>
-        <br>
-    
-        <span class="psan_end">Cars</span><br>
-        <span class="psan_end">Flats for rent</span><br>
-        <span class="psan_end">obile Phones</span><br>
-        <span class="psan_end">Jobs</span>
-    </div>
-<div class="tex_footr">
-    <div style="margin-left: 0px; ">
-        <div style="margin: 60px 0px 0px 12px;">
-            <span style="font-weight: 700; ">GET YOUR APP TODAY</span>
-        </div>
-
-<div style="display: flex; flex-direction: row; cursor: pointer;">
-        <div style="margin: 0px 0px 12px 12px;">
-            <span style="font-weight: 700; "><img src="./img/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
-                    alt="" style="width: 24px ;"></span>
-        </div>
-
-        <div style="margin: 0px 0px 12px 12px;">
-            <span style="font-weight: 700; "><img src="./img/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg" alt="" style="width: 24px;"></span>
-        </div>
-
-        <div style="margin: 0px 0px 12px 12px;">
-            <span style="font-weight: 700; "><img src="./img/youtube.png"alt="" style="width: 24px;"></span>
-        </div>
-
-        <div style="margin: 0px 0px 12px 12px;">
-            <span style="font-weight: 700; "><img src="./img/38-instagram-2-512.webp"alt="" style="width: 24px;"></span>
-        </div>
-</div>
-        <div class="app_box" style=" ">
-            <div class="app" style="">
-                <img class="app_img2" src="./img/app store.svg" alt="">
-            </div>
-            <div class="app">
-                <img class="app_img2" src="./img/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" alt="">
-            </div>
-            <div class="app">
-                <img class="app_img2" src="./img/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-    
-
-    </div>
-</div>
-
-<div style="background-color: #002f34; text-align: right;color: white;  padding: 15px 100px 15px ;">
-    <div>
-            <span>Free Classifieds in Pakistan</span>. © 2006-2023 OLX
-    </div>
 
 </div>
+<!-- 
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button> -->
+
+
+
+
+<div class="col-3" style="margin-top: 50px; cursor: pointer;">
+
+    <div class="main_left  " style="color: black; ;display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/images.jpg" alt="" style="width: 30px; height: 30px; border-radius: 50px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Abubakar ABS</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black;display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/1.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Friends</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/2.png" alt="" style="width: 40px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Groups</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black;display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/3.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Pages </span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/4.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Memories</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black;display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/5.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Saved</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black;display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/6.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Ad Center</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/7.png" alt="" style="width: 40px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 0px">
+            <span style="font-size: 15px; font-weight: bold;">Ads Manger</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;padding-left: 15px;">
+            <div><img src="./img/8.png" alt="" style="width: 20px; height: 30px; padding-left: 5px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Blood Donations</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/9.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Events</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/10.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Marketplace</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/11.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Massenger</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/7.png" alt="" style="width: 40px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 0px">
+            <span style="font-size: 15px; font-weight: bold;">Ads Manger</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;padding-left: 15px;">
+            <div><img src="./img/8.png" alt="" style="width: 20px; height: 30px; padding-left: 5px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Blood Donations</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/9.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Events</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/10.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Marketplace</span>
+        </div>
+    </div>
+    <div class="main_left  " style="color: black; display: flex; flex-direction: row; padding: 0px 8px;">
+        <div class="" style="display: flex; flex-direction: row; padding: 7px;">
+            <div><img src="./img/11.png" alt="" style="width: 30px; height: 30px;"></div>
+        </div>
+        <div style="padding: 10px; 5px">
+            <span style="font-size: 15px; font-weight: bold;">Massenger</span>
+        </div>
+    </div>
+</div>
+
+
+       
+
+
+
+    </div>
+
+
+
+
+    
+    <div class="main_right col-lg-3" style="background-color: lightsalmon; border: 1px solid;"></div>
+</div> 
 
 
 
@@ -599,11 +701,12 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
